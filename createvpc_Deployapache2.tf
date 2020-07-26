@@ -1,7 +1,7 @@
 provider "aws" {
-  region  = var.region
-  access_key = var.access_key
-  secret_key = var.secret_key
+  region  = "ap-south-1"
+  access_key = "access key here"
+  secret_key = "secret key here"
 }
 
 # aws vpc 
