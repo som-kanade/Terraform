@@ -1,5 +1,6 @@
 # all ip address allowed in SG inbound rules please make sure only needed ips/cidrs allowed if using thos script 
 # please secure Resources accordingly
+# please seperate variables if needed
 
 provider "aws" {
   region     = var.region
